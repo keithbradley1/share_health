@@ -2,8 +2,8 @@ from django.db import models
 
 class User(models.Model):
     name = models.CharField(max_length=25)
-    user = models.ForeignKey(Exercise, related_name='exercise')
-    user = models.ForeignKey(Nutrition, related_name='nutrition')
+    exercise = models.ForeignKey(Exercise, related_name='user')
+    nutrition = models.ForeignKey(Nutrition, related_name='user')
 
     def __str__(self):
         return "{}: {}".format(self.id, self.name)
