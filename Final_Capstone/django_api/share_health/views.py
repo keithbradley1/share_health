@@ -3,8 +3,8 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
 
-from search_health.models import User, Nutrition, Exercise
-from search_health.serializers import UserSerializer, NutritionSerializer, ExerciseSerializer
+from share_health.models import User, Nutrition, Exercise
+from share_health.serializers import UserSerializer, NutritionSerializer, ExerciseSerializer
 
 class UserView(viewsets.ModelViewSet):
     queryset = User.objects.all()
