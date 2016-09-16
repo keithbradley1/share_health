@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>We_Are_Team</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app/css/style.css">
+  </head>
+  <body>
+    <div ng-app='Share_Health'>
+      <div ng-include="'app/landing/landing.html'" ng-controller="LandingCtrl"></div>
+        <div ng-view></div>
+    </div>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="app/app.js"></script>
+
+    <script src="app/landing/landingConfig.js"></script>
+    <script src="app/landing/LandingCtrl.js"></script>
+
+    <script src="app/users/UserCtrl.js"></script>
+    <script src="app/users/userDetailCtrl.js"></script>
+    <script src="app/users/userConfig.js"></script>
+
+    <script src="app/nutritions/NutritionCtrl.js"></script>
+    <script src="app/nutritions/nutritionDetailCtrl.js"></script>
+    <script src="app/nutritions/nutritionConfig.js"></script>
+
+    <script src="app/exercises/ExerciseCtrl.js"></script>
+    <script src="app/exercises/exerciseDetailCtrl.js"></script>
+    <script src="app/exercises/exerciseConfig.js"></script>
+
+  </body>
+</html>
