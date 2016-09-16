@@ -9,9 +9,9 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 class NutritionSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Nutrition
-        fields = ('id', 'url', 'name', 'nutrition', 'description', 'amount', 'unit', 'calories', 'carbs', 'lipids')
+        fields = ('id', 'url', 'name', 'description', 'amount', 'unit', 'calories', 'carbs', 'lipids')
 
 class ExerciseSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Exercise
-        fields = ('id', 'url', 'name', 'exercise', 'description', 'amount', 'unit', 'calories')
+        fields = ('id', 'url', 'name', 'description', 'amount', 'unit', 'calories_burned')
