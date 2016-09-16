@@ -6,6 +6,7 @@ angular.module("Share_Health")
     '$timeout',
     '$location',
     '$routeParams',
+
     function ($scope, $http, RootFactory, $timeout, $location, $routeParams) {
       $scope.title = "I'm the user detail page"
       $scope.user = null;
@@ -24,8 +25,6 @@ angular.module("Share_Health")
           logError
         )
 
-
-
         $scope.deleteUser = (userId) => {
           // console.log(exerciseId)
           return $http.delete(`http://localhost:8000/user/${userId}/`)
@@ -38,10 +37,6 @@ angular.module("Share_Health")
           return $http.put(`http://localhost:8000/user/${user.id}/`, user)
           .then(() => $location.path("/user/"))
         };
-
-
-
-
 
     }
   ]);
