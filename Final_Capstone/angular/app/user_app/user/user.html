@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="row">
+    <h1>{{ title }}</h1>
+  </div>
+  <div class="row user-row">
+    <ul class="user-ul">
+      <li ng-repeat="(key, resource) in user" class="user-li">
+        <a href="/#/user/{{ resource.id }}" class="user-a">{{ resource.name }}</a>
+      </li>
+    </ul>
+  </div>
+  <div class="row user-row">
+    <div class="col-sm-12">
+      <input ng-model="newUser" type="text" name="newUser">
+      <div class="cirlce-div" ng-click="addUser(newUser)"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></div>
+    </div>
+  </div>
+</div>
