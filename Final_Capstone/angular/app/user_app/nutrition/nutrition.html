@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="row">
+    <h1>{{ title }}</h1>
+  </div>
+  <div class="row nutrition-row">
+    <ul class="nutrition-ul">
+      <li ng-repeat="(key, resource) in nutrition" class="nutrition-li">
+       <a href="/#/nutrition/{{ resource.id }}" class="nutrition-a">{{ resource.name }}</a>
+      </li>
+    </ul>
+  </div>
+  <div class="row nutrition-row">
+    <div class="col-sm-12">
+      <input ng-model="newNutrition" type="text" name="newNutrition">
+      <div class="cirlce-div" ng-click="addNutrition(newNutrition)"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  <h3>Create a new Nutrition: </h3>
+  <label for="singleSelect"> User </label><br>
+  <select name="singleSelect" ng-model="selectedUser">
+    <option ng-repeat="resource in user" value="{{resource.url}}">{{ resource.name }}</option>
+  </select>
+  <input ng-model="newNutrition" type="text" name="newNutrition">
+  <button ng-click="addNutrition(newNutrition)">Add</button>
