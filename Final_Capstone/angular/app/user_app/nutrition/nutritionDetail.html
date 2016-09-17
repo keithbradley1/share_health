@@ -1,0 +1,7 @@
+<article>
+  <h1>{{nutrition.name}}</h1>
+  <p class="nutritionDetail-p">Nutrition Name: {{ nutrition.name }} <input type="text" name="name" ng-model="nutrition.name">
+  <button ng-click='deleteNutrition(key, resource.id)'>Delete</button>
+  <button ng-click="editNutrition(nutrition)">Edit</button></p>
+  <p class="nutritionDetail-p">Nutrition records for: {{ user.name }}</p>
+</article>
