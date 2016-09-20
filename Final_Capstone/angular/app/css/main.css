@@ -1,0 +1,440 @@
+body {
+	margin: 0px;
+}
+
+/*************************************LOGIN*************************************/
+
+.login-header {
+	background-color: #ffc957;
+	margin-bottom: 10px;
+	height: 80px;
+}
+
+.red-bar {
+	height: 4px;
+	background-color: #ffa834;
+	border-bottom: 2px solid #ff3823;
+	margin-bottom: 60px;
+}
+
+.login-body {
+	background-color: #ffa834;
+	max-width: 100%;
+	height: 100%;
+}
+
+.login-input {
+	margin: 8px 0px;
+	border-radius: 10px;
+	padding: 4px 0px 4px 12px;
+	width: 270px;
+}
+
+.login-button {
+	padding: 2px 22px;
+	border-radius: 12px;
+	margin-bottom: 20px;
+}
+
+.login-register {
+	text-align: center;
+	color: #ff3823;
+	margin-top: 30px;
+	margin: auto;
+}
+
+.login-register h2 {
+	margin-bottom: 0px;
+}
+
+.login-sign-in {
+	text-align: center;
+	color: #ff3823;
+	margin-top: 30px;
+	margin: auto;
+}
+
+.login-sign-in h2 {
+	margin-bottom: 0px;
+}
+
+/*************************************CLINIC PAGES*************************************/
+
+.clinic-header {
+	padding-top: 14px;
+	background-color: #72bb53;
+	margin-bottom: 10px;
+	height: 66px;
+	border-bottom: 3px solid #00a4d3;
+}
+
+.clinic-header-layout {
+	margin-left: 44%;
+}
+
+.clinic-header-layout p {
+	float: right;
+	margin-right: 10%;
+	color: white;
+	font-size: 20px;
+}
+
+.clinic-header-button {
+	padding: 16px 55px;
+	font-size: 15px;
+	color: #00a4d3;
+	border-radius: 8px;
+	margin-right: 15px;
+}
+
+.clinic-blue-text {
+	text-align: center;
+	color: #00a4d3;
+	font-size: 30px;
+}
+
+.clinic-table {
+	width: 90%;
+	margin: auto;
+}
+
+.clinic-table-first-row {
+	padding: 10px;
+	display: inline;
+	width: 90%;
+	height: 20px;
+	float: left;
+	background-color: #cccccc;
+	margin-left: 5%;
+}
+
+/*********************Clinic Patients*********************/
+
+.clinic-patient-column1 {
+	margin-right: 33%;
+	margin-top: 4px;
+}
+
+.clinic-patient-column2 {
+	margin-right: 33%;
+	margin-top: 4px;
+}
+
+.clinic-patient-column3 {
+	margin-right: 33%;
+	margin-top: 4px;
+}
+
+/*********************Clinic Visits***********************/
+
+.clinic-vists-column1 {
+	margin-top: 4px;
+	margin-right: 19%;
+}
+
+.clinic-vists-column2 {
+	margin-top: 4px;
+	margin-right: 19%;
+}
+
+.clinic-vists-column3 {
+	margin-top: 4px;
+	margin-right: 19%;
+}
+
+.clinic-vists-column4 {
+	margin-top: 4px;
+	margin-right: 19%;
+}
+
+/*********************Clinic Doctor***********************/
+
+.clinic-doctor-column1 {
+	margin-top: 4px;
+	margin-right: 19%;
+}
+
+.clinic-doctor-column2 {
+	margin-top: 4px;
+	margin-right: 19%;
+}
+
+.clinic-doctor-column3 {
+	margin-top: 4px;
+	margin-right: 19%;
+}
+
+.clinic-doctor-column4 {
+	margin-top: 4px;
+	margin-right: 19%;
+}
+
+/**********************Nutrition****************************/
+
+.nutrition-header {
+	background-color: #ffa834;
+	margin-bottom: 10px;
+	height: 80px;
+	border-bottom: 2px solid #ff3823;
+}
+
+.nutrition-header-layout p {
+	float: right;
+	margin-right: 10%;
+	margin-top: 30px;
+	color: white;
+	font-size: 20px;
+}
+
+.nutrition-header-layout {
+	margin-left: 51%;
+}
+
+.nutrition-header-button {
+	padding: 16px 45px;
+	font-size: 15px;
+	border-radius: 8px;
+	margin-right: 15px;
+	margin-top: 14px;
+}
+
+.nutrition-red-text {
+	text-align: center;
+	color: #ff3823;
+	font-size: 30px;
+ }
+
+ .nutrition-table {
+ 	width: 90%;
+ 	margin: auto;
+ }
+
+ .nutrition-table-first-row {
+ 	padding: 10px;
+ 	display: inline;
+ 	width: 90%;
+ 	height: 20px;
+ 	float: left;
+ 	background-color: #cccccc;
+ 	margin-left: 5%;
+ }
+
+ .nutrition-doctor-column1 {
+ 	margin-top: 4px;
+ 	margin-right: 19%;
+ }
+
+ .nutrition-doctor-column2 {
+ 	margin-top: 4px;
+ 	margin-right: 19%;
+ }
+
+ .nutrition-doctor-column3 {
+ 	margin-top: 4px;
+ 	margin-right: 19%;
+ }
+
+ .nutrition-doctor-column4 {
+ 	margin-top: 4px;
+ 	margin-right: 19%;
+ }
+
+ .nutrition-bar-info {
+ 	width: 100%;
+ 	border-top: 3px solid #ff3823;
+ 	margin-top: 270px;
+ }
+
+ .nutrition-bar-info h2 {
+ 	/*width: 90%;*/
+ 	text-align: center;
+ 	color: #ff3823;
+ }
+
+
+ .nutrition-bar-labels {
+ 	border-bottom: 3px solid #ff3823;
+ 	padding-bottom: 6px;
+ }
+
+ .nutrition-bar-height-spacer { /*this is just used for spacing the height*/
+ 	margin-left: 9%;
+ 	margin-top: 45px;
+ }
+
+ .nutrition-bar-column1 {
+ 	margin-top: 4px;
+ 	margin-right: 14%;
+ }
+
+ .nutrition-bar-column2 {
+ 	margin-top: 4px;
+ 	margin-right: 14%;
+ }
+
+ .nutrition-bar-column3 {
+ 	margin-top: 4px;
+ 	margin-right: 14%;
+ }
+
+ .nutrition-bar-column4 {
+ 	margin-top: 4px;
+ 	margin-right: 14%;
+ }
+
+ .nutrition-bar-column5 {
+ 	margin-top: 4px;
+ 	margin-right: 14%;
+ }
+
+ .nutrition-bar-info-energy {
+ 	background-color: #ffa834;
+ 	width: 17%;
+ 	/*height: 4px;*/
+ }
+
+ .nutrition-bar-info-protein {
+ 	background-color: #ff3823;
+ 	width: 17%;
+ 	/*height: 4px;*/
+ }
+
+ .nutrition-bar-info-net-carbs {
+ 	background-color: #ffa834;
+ 	width: 17%;
+ 	/*height: 4px;*/
+ }
+
+ .nutrition-bar-info-fats {
+ 	background-color: #ff3823;
+ 	width: 17%;
+ 	/*height: 4px;*/
+ }
+
+ .nutrition-bar-info-goal {
+ 	background-color: #ffa834;
+ 	width: 17%;
+ 	/*height: 4px;*/
+ }
+
+/***************User Data Popup********************/
+
+.user-data-header {
+	background-color: #ffc957;
+	height: 50px;
+	padding-top: 1px;
+}
+
+.user-data-header-layout {
+	margin-left: 7%;
+}
+
+.user-data-header-layout p {
+	color: white;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+.user-data-food-select {
+	margin-top: 22px;
+	margin-left: 4%;
+	margin-bottom: 170px;
+	width: 89%;
+	height: 32px;
+	background-color: white;
+	border-bottom: black solid 2px;
+}
+
+.user-chosen-food {
+	text-align: center;
+}
+
+.user-chosen-food h2 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.user-chosen-food h5 {
+	margin-top: 5px;
+}
+
+.user-chosen-serving-info {
+	margin-left: 39%;
+}
+
+.user-chosen-serving-count {
+	width: 3%;
+}
+
+.user-chosen-serving-weight {
+	margin-left: 2%;
+	height: 30px;
+	width: 25%;
+	background-color: white;
+	border-radius: 6px;
+}
+
+/****************Doctor view*******************/
+
+
+.doctor-view-header {
+	background-color: #72bb53;
+	height: 50px;
+	margin-top: -16px;
+	padding-top: 14px;
+}
+
+.doctor-view-header-layout {
+	color: white;
+	font-size: 20px;
+	margin-left: 15%;
+}
+
+.doctor-patient-select-area {
+	margin-top: 40px;
+	float: left;
+	width: 31%;
+	margin-right: 5%;
+	margin-left: 25px;
+}
+
+.doctor-select-area {
+	/*border-bottom: solid 3px #00a4d3;*/
+}
+
+.doctor-select {
+	width: 100%;
+	height: 30px;
+	background-color: white;
+	/*border-radius: 8px;*/
+}
+
+.patient-select-area {
+	margin-top: 70px;
+	border-top: solid 3px #00a4d3;
+	text-align: center;
+	color: #97c3db;
+}
+
+.patient-select {
+	width: 100%;
+	height: 30px;
+	background-color: white;
+}
+
+.nutrient-area {
+	margin-top: 40px;
+	float: right;
+	width: 60% ;
+	margin-right: 25px;
+/*	border: solid 3px black;*/
+}
+
+.nutrient-area-title {
+	text-align: center;
+	color: #00a4d3;
+	border-bottom: 3px solid #00a4d3;
+}
+
+.nutrient-area-patient-table {
+}

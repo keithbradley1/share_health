@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>User Data</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<header class="user-data-header">
+		<div class="user-data-header-layout">
+			<p>Add Food To Diary</p>
+		</div>
+	</header>
+	<body class="user-data-body">
+		<select placeholder="Foods" class="user-data-food-select">
+		  <option value="Foods">Foods</option>
+		  <option value="food1">Food1</option>
+		  <option value="food2">Food2</option>
+		  <option value="food3">Food3</option>
+		</select>
+
+		<div class="user-chosen-food">
+			<h2>{{chosen food}}</h2>
+			<h5>{{food.nutrients}}</h5>
+		</div>
+		
+		<div class="user-chosen-serving-info">
+			Serving:
+			<input placeholder="1" class="user-chosen-serving-count"></input>
+
+			<select class="user-chosen-serving-weight">
+			  <option value="Foods">Cup, Chopped -57g</option>
+			  <option value="food1">Food1</option>
+			  <option value="food2">Food2</option>
+			  <option value="food3">Food3</option>
+			</select>
+		</div>
+	</body>
+</html>
