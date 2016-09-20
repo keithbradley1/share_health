@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Doctor view</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<header class="doctor-view-header">
+		<div class="doctor-view-header-layout">
+			<p>Choose a Doctor</p>
+		</div>
+	</header>
+	<body class="doctor-view-body">
+		<div class="doctor-patient-select-area">
+
+			<div class="doctor-select-area">
+				<select class="doctor-select">
+				  <option value="">Doctor's Name</option>
+				  <option value="food1">Food1</option>
+				  <option value="food2">Food2</option>
+				  <option value="food3">Food3</option>
+				</select>
+			</div>
+
+			<div class="patient-select-area">
+				<h2>{{doctor.name}}</h2>
+				<h5>{{doctor's patient list}}</h5>
+				<select class="patient-select">
+				  <option value="">Patient Name</option>
+				  <option value="food1">Food1</option>
+				  <option value="food2">Food2</option>
+				  <option value="food3">Food3</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="nutrient-area">
+			<div class="nutrient-area-patient-table">
+				<div class="nutrient-area-title">
+					<h1>{{Patient's}} Food Diary</h1>	
+				</div>
+				
+			</div>
+		</div>
+	</body>
+</html>

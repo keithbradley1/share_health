@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row">
+    <h1>{{ title }}</h1>
+  </div>
+  <div class="row exercise-row">
+    <ul class="exercise-ul">
+      <li ng-repeat="(key, resource) in exercise" class="exercise-li">
+        <a href="/#/exercise/{{ resource.id }}" class="exercise-a">{{ resource.name }}</a>
+      </li>
+    </ul>
+  </div>
+  <div class="row exercise-row">
+    <div class="col-sm-12">
+      <input ng-model="newExercise" type="text" name="newExercise">
+      <div class="cirlce-div" ng-click="addExercise(newExercise)"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <h1>{{title}}</h1>
+
+  <ul>
+    <li ng-repeat="(key, resource) in exercises">
+     <a href="/#/exercise/{{ resource.id }}">{{ resource.name }}</a>
+     <button ng-click='deleteExercise(key, resource.id)'>Delete</button> -->
+    <!-- </li> -->
+  <!-- </ul> --> -->

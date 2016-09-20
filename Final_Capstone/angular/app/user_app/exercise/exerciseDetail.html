@@ -1,0 +1,7 @@
+<article>
+  <h1>{{exercise.name}}</h1>
+  <p>Exercise Name: {{ exercise.name }} <input type="text" name="name" ng-model="exercise.name">
+  <button ng-click='deleteExercise(key, resource.id)'>Delete</button>
+  <button ng-click="editExercise(exercise)">Edit</button></p>
+  <p>Nutrition: {{ nutrition.name }}</p>
+</article>
